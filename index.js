@@ -25,7 +25,6 @@ fs.readdir(config.src, function (err, files) {
 //
 // Helpers
 //
-
 function processFile(file) {
     // Checking for correct file extension
     if (!isCorrectFileExtension(file)) {
