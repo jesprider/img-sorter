@@ -1,0 +1,22 @@
+{
+  "name": "img-sorter",
+  "version": "1.0.0",
+  "description": "Image sorter",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "uglifyjs index.js -c -o imgSorter.js"
+  },
+  "author": "Roman Alekseev",
+  "license": "ISC",
+  "dependencies": {
+    "exif-parser": "^0.1.9",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.6.1"
+  }
+}
